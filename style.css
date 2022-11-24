@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    padding: 2rem;
+    background-color: #9d174d;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+nav .link-active{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    padding: 0rem 2rem;
+}
+
+nav a {
+    color: aliceblue;
+}
+
+input {
+    display: block;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    margin: 1rem auto;
+    border-radius: .2rem;
+    border-color: #ec4899;
+}
+
+input[type="radio"]{
+    display: inline;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+label{
+    margin-right: 1rem;
+}
+
+button {
+    padding: 0.7rem;
+    font-size: medium;
+    border-radius: .2rem;
+    background-color: #db2777;
+    color: aliceblue;
+    cursor: pointer;
+    /* margin-top: rem; */
+    border: none;
+}
+
+#brand-name {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: #db2777;
+    padding: 1rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    margin-top: 1.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.footer .link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer li {
+    display: inline;
+    padding: 1rem;
+    text-align: center;
+}
+
+#output {
+    margin: 1rem 0rem;
+    font-weight: bold;
+    color: #db2777;
+    font-size: large;
+}
+
+.content {
+    min-height: 70vh;
+}
+
+.quiz-content {
+    min-height: 180vh;
+}
+
+
+.item-active {
+    text-decoration: bold;
+}
+
+.app-title {
+    color: white;
+}
+
+
